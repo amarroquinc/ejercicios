@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -le 0 ]; then
+    echo "Falta argumento"
+else
+    echo "Hola" $*
+fi
+~                   
